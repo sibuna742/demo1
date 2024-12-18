@@ -1,0 +1,131 @@
+
+//Write a loop to print numbers from 1 to 10.
+
+//Create a function to calculate the sum of numbers from 1 to n (where n is an input).
+
+//?Write a function that takes an array of words and prints each word in uppercase.
+// let arr=["abc","def","ghi"];
+let arr2=["the","rat","cow","haile"]
+// for(let i=0;i<arr.length;i++){
+  
+//     let arr1=arr[i].toUpperCase();
+//     console.log(arr1)
+//     }
+
+
+// Write a function that takes an array of words and prints each word in uppercase.
+
+function arrwe(words){
+    
+    for(let i=0;i<words.length;i++){
+        let arr = [];
+        
+        let words2=words[i].toUpperCase();
+        arr[i] = words2;
+        
+        
+        }
+    return arr ;
+    }
+    
+    
+    let p =["Rahwa","mitie","saba"]
+     ["RAHWA","MITIE","SABA"]
+     arrwe(p);
+   
+        
+        let v = ["k", "h","y"]
+        
+
+function arr(words){
+    
+    for(let i=0;i<words.length;i++){
+        
+        let words2=words[i].toUpperCase();
+        
+        console.log(words2);
+        
+        }
+    
+    
+    }
+    
+    arr(["Rahwa","mitie","saba"]);
+//Use a while loop to sum up the digits of a given number (e.g., input: 123, output: 6).
+
+let n=1234;
+let sum=0;
+
+while(n>10){
+    let mod=n%10;
+    n=Math.floor(n/10);
+    sum=sum+mod;
+    }
+    sum=sum+n;
+    console.log(sum);
+
+//Create a function that keeps prompting the user for a number until they enter a number greater than 50.
+
+
+
+function greet() {
+  let num=0;
+while(num<=50)
+   num=prompt("enter a number");
+  //if (num < 50) {
+    
+    //
+  //}
+  console.log(num);
+  }
+ 
+
+greet();
+
+
+//Write a program that generates random numbers between 1 and 100 until it generates the number 50.
+
+let i=1;
+while(i<=100){
+
+  if(i<=50){
+
+    console.log("The number is:"+ i)
+  }
+  i++;
+}
+
+
+
+//Combine if and while: Write a program to repeatedly ask the user for a password until they enter the correct one. 
+//Use an if statement to verify correctness.
+
+let len= 12;
+let pr=0;
+//let sec="";
+
+
+while(pr<=len){
+pr=prompt("enter your password")
+if(pr<=len){
+  console.log(pr);
+}
+//pr++;
+}  
+
+
+// Write a function that takes an array of words and prints each word in uppercase.
+
+function arrwe(words){
+    let arr = [];
+    for(let i=0;i<words.length;i++){
+        arr[i] = words[i].toUpperCase();        
+    }
+    return arr;
+}
+let p =["Rahwa","mitie","saba"]
+     //["RAHWA","MITIE","SABA"]
+     
+let k = arrwe(p)
+ console.log(k)
+

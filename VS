@@ -1,0 +1,10 @@
+let name="sibu"
+let age=25;
+let rating=5
+let comment="congratulations!"
+let city="San francisco"
+let messages="Hi,how are you"
+let yourStory=["Public","Private"]
+let Myfeed=["name","city","comments"]
+//let friend=
+
